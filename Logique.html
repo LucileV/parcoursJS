@@ -36,34 +36,34 @@ console.log(message);
  //Exercice : Affichage des scores
 
       var score  = prompt("Quel est votre score? ");
+      var result = "Vous avez le rang A";
       var result1 = "Vous avez le rang A";
       var result2 = "Vous avez le rang B"; 
       var result3 = "Vous avez le rang C"; 
 
       if( score >= 90){
-
-            console.log(result1);
+          result = "Vous avez le rang A";
+           
 
       }else if ( score <= 90 && score >= 50) {
 
-          console.log(result2);
+          result = "Vous avez le rang B";
 
       }else{
-
-          console.log(result3);
+          result = "Vous avez le rang c";
 
 
       }
 
-
+      console.log(result);
 
 // Exercice : Mettre au pluriel
 // 
 
 
   var chaise      = "chaise";
-  var nbr_chaise  = 10 ;
-  var result      = ("Il y a " + nbr_chaise +" "+ chaise +"s");
+  var nbr_chaise  = 5;
+  var result      = ("Il y a " + nbr_chaise + " " + chaise +"s");
 
   if( nbr_chaise > 2){
 
