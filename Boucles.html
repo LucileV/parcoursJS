@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title>Les Boucles</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <script type="text/javascript">
+
+
+// Exercice : Pair et impair
+// 
+  for (var i=1  ; i<21; i++) {
+
+      if ((i % 2) == 0) {
+
+        console.log(i + " est pair");
+
+      }else{
+
+        console.log(i + " est impair");
+
+      }
+
+    }
+ 
+//Exercice : Multiplication Tables
+//
+
+
+  for (i=0; i<10; i++){
+
+    var result = i*9;
+
+    console.log( i + " que multiplie 9 = " + result);
+
+
+    }
+
+
+//Exercice : assigner des grades
+//
+
+
+
+j = prompt("Quel est votre score?");
+
+while ( j <= 100) {
+       
+       console.log(j);
+        j++;
+
+        if (j >= 90) {
+
+           var grade = "A";
+
+        } else if (j >= 80 && j <=90 ) {
+
+          var grade = "B";
+
+        } else if (j >= 70 && j <=80 ) {
+
+          var grade = "C";
+
+        } else if (j >= 65 && j <=70 ) {
+
+          var grade = "D";
+
+        } else if (j <= 65 ) {
+
+          var grade = "E";
+
+        }     
+
+        console.log("Pour " + j + " points vous avez le grade " + grade );
+
+    }
+
+  
+
+
+
+    
+    
+  </script>
+</head>
+<body>
+
+<h1>Les Variables</h1>
+
+
+
+
+</body>
+</html>
