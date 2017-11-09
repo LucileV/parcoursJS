@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title>Logique</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <script type="text/javascript">
+
+
+// Exercice : Langues
+//  
+    var langue = prompt('Indique la langue que tu parles ! en , es, fr ?');
+  	var langue_1 = "fr";
+    var langue_2 = "en";
+    var langue_3 = "es";
+
+    var message_1 = "Bonjour tout le monde";
+    var message_2 = "Hello world";
+    var message_3 = "Hola, Mundo";
+    var message_4 = "Choississez parmis les options proposées";
+
+
+
+    if( langue == langue_1){
+
+      console.log(message_1);
+
+    } 
+
+    else if( langue == langue_2){
+
+      console.log(message_2);
+
+    }
+    else if( langue == langue_3){
+
+      console.log(message_3);
+    }
+
+    else {
+
+      console.log(message_4);
+
+    }
+
+
+
+ //Exercice : Affichage des scores
+
+      var score  = prompt("Quel est votre score? ");
+      var result1 = "Vous avez le rang A";
+      var result2 = "Vous avez le rang B"; 
+      var result3 = "Vous avez le rang C"; 
+
+      if( score >= 90){
+
+            console.log(result1);
+
+      }else if ( score <= 90 && score >= 50) {
+
+          console.log(result2);
+
+      }else{
+
+          console.log(result3);
+
+
+      }
+
+
+
+// Exercice : Mettre au pluriel
+// 
+
+
+  var chaise      = "chaise";
+  var nbr_chaise  = 10 ;
+  var result      = ("Il y a " + nbr_chaise +" "+ chaise +"s");
+
+  if( nbr_chaise > 2){
+
+        console.log(result);
+
+      }else{
+
+        console.log("Il n'y a qu'une seule chaise");
+
+      }
+
+
+
+  </script>
+</head>
+<body>
+
+<h1>Les Variables</h1>
+
+
+
+
+</body>
+</html>
