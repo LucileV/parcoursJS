@@ -43,15 +43,16 @@
 
 // Fonction qui fait des pourcentages
 
-    var pourcentages =  function (g){
-        return (g * valeur_pourcentage ) / 100 ;
+    var pourcentages =  function (g,h){
+        return (g / 100)*h;
     }
 
     var valeur = prompt("Tu veux calculer le pourcentage de quel nombre? : ");
     var valeur_pourcentage = prompt("Quel pourcentage? : ");
-    var result = pourcentages(valeur);
+    var result = pourcentages(valeur_pourcentage,valeur);
 
-    console.log(valeur_pourcentage + " % de " + valeur + " équivant à " + result);
+    console.log(result);
+    //console.log(valeur_pourcentage + " % de " + valeur + " équivant à " + result);
 
 
 // Fonction qui fait des distance
