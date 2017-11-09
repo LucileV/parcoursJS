@@ -10,36 +10,30 @@
 // Exercice : Langues
 //  
     var langue = prompt('Indique la langue que tu parles ! en , es, fr ?');
-  	var langue_1 = "fr";
-    var langue_2 = "en";
-    var langue_3 = "es";
+  
 
-    var message_1 = "Bonjour tout le monde";
-    var message_2 = "Hello world";
-    var message_3 = "Hola, Mundo";
-    var message_4 = "Choississez parmis les options proposées";
+    if( langue == "fr"){
 
-
-
-    if( langue == langue_1){
-
-      console.log(message_1);
+      var message = "Bonjour tout le monde";
+      console.log(message);
 
     } 
 
-    else if( langue == langue_2){
+    else if( langue == "en"){
 
-      console.log(message_2);
+      var message = "Hello world";
+      console.log(message);
 
     }
-    else if( langue == langue_3){
+    else if( langue == "es"){
 
-      console.log(message_3);
+      var message = "Hola, Mundo";
+      console.log(message);
     }
 
     else {
-
-      console.log(message_4);
+      var message = "Choississez parmis les options proposées";
+      console.log(message);
 
     }
 
